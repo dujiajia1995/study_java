@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <name>study_java</name>
-    <description>study java</description>
+    <description>工作中遇到的一些不明晰的知识点;或者是一些工具类(待完善)</description>
 
     <groupId>groupId</groupId>
     <artifactId>study_java</artifactId>
@@ -14,6 +14,47 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <lombok>1.18.0</lombok>
+        <mybatis-plus-boot-starter.version>3.0-RC1</mybatis-plus-boot-starter.version>
+        <commons.lang.version>2.6</commons.lang.version>
     </properties>
-    
+
+
+    <dependencyManagement>
+
+    </dependencyManagement>
+    <dependencies>
+        <!-- 编译时自动生成 getter setter方法 安装lombok插件后 idea代码检查不报错-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok}</version>
+            <scope>provided</scope>
+        </dependency>
+        <!--    mybatis-plus 是mybatis 的升级版 有更多的方法    -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>${mybatis-plus-boot-starter.version}</version>
+        </dependency>
+        <!--        .common-->
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>${commons.lang.version}</version>
+        </dependency>
+
+        <!-- tools start-->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>27.0.1-jre</version>
+        </dependency>
+        <!--tools   end-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.7</version>
+        </dependency>
+    </dependencies>
 </project>
