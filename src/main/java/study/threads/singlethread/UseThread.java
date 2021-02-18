@@ -1,4 +1,4 @@
-package study.singlethread;
+package study.threads.singlethread;
 
 /**
  * @Author 杜佳佳

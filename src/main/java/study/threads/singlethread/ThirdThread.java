@@ -1,4 +1,4 @@
-package study.singlethread;
+package study.threads.singlethread;
 
 import java.util.concurrent.Callable;
 
