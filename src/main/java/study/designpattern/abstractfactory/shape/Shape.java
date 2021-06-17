@@ -1,4 +1,4 @@
-package study.designpattern.factory.shape;
+package study.designpattern.abstractfactory.shape;
 
 /**
  * 抽象类, 对外均使用 这个抽象类操作

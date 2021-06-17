@@ -1,4 +1,4 @@
-package study.designpattern.factory.shape;
+package study.designpattern.abstractfactory.shape;
 
 /**
  * 圆型
@@ -7,7 +7,7 @@ package study.designpattern.factory.shape;
  * @Date 2021/5/12-15:49
  * @@Version 1.0
  */
-public class Circle implements ShapeFactory {
+public class Circle implements Shape {
     /**
      * 进行自己独有的逻辑
      */

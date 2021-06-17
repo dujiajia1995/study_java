@@ -1,4 +1,4 @@
-package study.designpattern.factory.shape;
+package study.designpattern.abstractfactory.shape;
 
 /**
  * 矩形
@@ -7,7 +7,7 @@ package study.designpattern.factory.shape;
  * @Date 2021/5/12-15:45
  * @@Version 1.0
  */
-public class Rectangle implements ShapeFactory {
+public class Rectangle implements Shape {
     /**
      * 进行自己独有的逻辑
      */
